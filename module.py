@@ -9,8 +9,11 @@ class Child(Human):
     def myself(self):
         print("I am a baby")
 
+    def qwerty (self):
+	print("qwerty")
 
 human = Human()
 parent.myself()
 child = Child()
 child.myself()
+Child.qwerty()
