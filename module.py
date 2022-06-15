@@ -1,8 +1,8 @@
-class Parent():
+class Human():
     def myself(self):
         print("I am a mom")
 
-class Child(Parent):
+class Child(Human):
     def play(self):
         print("Hello, world")
 
@@ -10,7 +10,7 @@ class Child(Parent):
         print("I am a baby")
 
 
-parent = Parent()
+human = Human()
 parent.myself()
 child = Child()
 child.myself()
